@@ -1,0 +1,131 @@
+/* Toggle button */
+.menu-toggle {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.menu-toggle:hover {
+    background-color: #FFD700;
+    color: black;
+}
+
+/* Sidebar container */
+.sidenav {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 240px;
+    background-color: white;
+    padding: 0 30px;
+    transition: left 0.15s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    background-color: #e0f2fe;
+}
+
+.sidenav.active {
+    left: 0;
+}
+
+/* Content wrapper */
+.sidenav-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Header */
+.menu-header {
+    position: relative;
+    height: 60px;
+}
+
+.menu-title {
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.menu-close {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.menu-close:hover {
+    color: red;
+}
+
+/* Divider */
+.menu-divider {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: black;
+}
+
+/* Menu structure */
+.menu-sections {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-top: 25px; /* ensures spacing below the header */
+    background-color: #e0f2fe;
+}
+
+.menu-list {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+/* Link styling */
+.menu-link {
+    color: black;
+    background-color: #e0f2fe;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid black;
+    border-color: black;
+    margin-bottom: 10px;
+}
+
+.menu-link:hover,
+.menu-link:active {
+    background-color: #FFD700;
+}
+
+.logout-button:hover,
+.logout-button:active {
+    background-color: lightcoral;
+}
+
+
+/* Bottom login link */
+.bottom-menu {
+    margin-top: auto;
+    padding-bottom: 20px;
+}

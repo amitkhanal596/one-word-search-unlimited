@@ -1,0 +1,71 @@
+/* Full-screen container */
+.endgamescreen {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #3b82f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inner white box */
+.endgamescreen-inner {
+    position: relative;
+    padding: 32px;
+    width: 20%;
+    height: auto; /* Adjusts based on content */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 16px; /* Spacing between elements */
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+}
+
+/* Heading styling */
+.endgamescreen-inner h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.signup-word {
+    color: #699fc8;
+    font: bold;
+}
+
+.signup-word :hover {
+    text-decoration: underline;
+}
+
+.signup {
+    font-size: 0.8em;
+}
+
+/* Text styling */
+.finished-message {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+
+
+/* Play Again button */
+.endgamescreen-inner .play-again {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners for button */
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer; /* Makes button interactive */
+    font-size: 1em;
+}
+
+/* Button hover effect */
+.endgamescreen-inner .play-again:hover {
+    background-color: #FFD700;
+}

@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container.fade {
+    transition: background-color 1s ease-in-out;
+}
+
+.help-button {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 20%;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.help-button:hover {
+    background-color: #FFD700;
+    color: black;
+}
+
+.menu {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+}
+

@@ -1,0 +1,17 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.4);
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.4);
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    transform: scale(1.4);
+}
